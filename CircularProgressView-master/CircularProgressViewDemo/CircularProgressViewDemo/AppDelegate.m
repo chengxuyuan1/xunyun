@@ -22,5 +22,8 @@
     [self.window makeKeyAndVisible];
     return YES;
 }
+-(void)test
+{
 
+}
 @end
