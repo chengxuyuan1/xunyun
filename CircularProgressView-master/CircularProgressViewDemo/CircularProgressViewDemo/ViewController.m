@@ -48,6 +48,8 @@
     
     //set initial timeLabel
     self.timeLabel.text = [NSString stringWithFormat:@"00:00/%@",[self formatTime:(int)self.circularProgressView.player.duration]];
+    
+    NSLog(@"xiggail");
 }
 
 - (void)didReceiveMemoryWarning
